@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000/api/linkedin';
+const BASE_URL = 'https://socialinteractiondashboard.vercel.app/api/linkedin';
 
 // Helper function to fetch LinkedIn data
 const fetchLinkedInData = async () => {
