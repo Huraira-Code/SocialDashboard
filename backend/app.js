@@ -6,8 +6,9 @@ const PORT = 5000;
 
 // Enable CORS for frontend requests
 app.use(cors({
-  origin: '*'
+  origin: 'http://localhost:5173', // Allow only your local development server
 }));
+
 // LinkedIn API Credentials
 const accessToken = 'AQXvGCW03chqG_itCMPND0wnSYx5-LAw3djys9ywkuyTbZ6OfQ-CBtNs0p2QjohsY4YpBIVf_mOjMfVxW7rW-aPsj1eUT8sdf3YeDnh7dcNbSWcVxVG_0rB25ZLVb-cF-OWXBe-HHx1UG8h9I9GDSMglbACvu58VwnMiPPqOi7b6RjDdfeEp2BC8oaLgod5AmLz02hEYRVmmkc-6sEP2xPyv2QhfeuKyhnLVftwarjNMcvTst3PUvhKB2BGHW6XlWa4vQZ-S7TZ87wBwW3Y_zKDtzNNVJRjdg9mkfcDyg5UhcWCeh1kCC1_c8u-KSD6YMOGZ6UnX-MHtrm-_MEj9ihiz5efwHg';
 const organizationId = '106596928';
